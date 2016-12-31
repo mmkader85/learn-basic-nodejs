@@ -1,5 +1,6 @@
 # learn-basic-nodejs
 
-- Read and output text file (readfile.js)
-- Express framework routing (express.js)
-- Creating and using custom module (math.js, module.js)
+- File System: Read and output file (readfile.js)
+- Express.js Framework: Server and routing (express.js)
+- Custom Module: Creating and using it (math.js, module.js)
+- MongoDB: Insert and find documents (mongodb.js)
