@@ -2,6 +2,7 @@
  * Created by muhammed on 17/12/16.
  *
  * This script imports a custom module and use it.
+ * Run this with -> node module.js
  */
 
 var math = require('./custom_node_modules/math');

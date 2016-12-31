@@ -15,6 +15,7 @@ var server = http.createServer(function (req, res) {
     });
 });
 
-server.listen('2000', function () {
-    console.log('server listening on port 2000...');
+var port = 2000;
+server.listen(port, function () {
+    console.log('server listening on port ' + port);
 });

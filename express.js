@@ -2,7 +2,7 @@
  * Created by muhammed on 17/12/16.
  *
  * This script creates a server using express framework and
- * listens to port 2001 for incoming connection.
+ * listens to port 2000 for incoming connection.
  */
 
 var express = require('express');
@@ -28,6 +28,7 @@ app.get('/product', function (req, res) {
     res.json({id:134, name:'Xiaomi Mi5', price:'S$ 525'});
 });
 
-app.listen(8080, function (req, res) {
-    console.log('Server is listening on port 8080');
+var port = 2000;
+app.listen(port, function (req, res) {
+    console.log('Server is listening on port ' + port);
 })
